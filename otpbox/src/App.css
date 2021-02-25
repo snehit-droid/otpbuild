@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+input[type=text]:focus{
+  background-color: rgb(241, 239, 107);
+}
+
+input[type=text] {
+  width: 5%;
+  padding: 12px 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input[type=text]:hover{
+  border-color: red;
+}
+
+.butn>button{
+  margin: 0 8px;
+  margin-top: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
